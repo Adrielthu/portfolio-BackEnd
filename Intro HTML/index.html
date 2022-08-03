@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 350px;">
+        <thead>
+            <tr>
+                <th>Precio </th>
+                <th>Producto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Items rojos</td>
+                <td>10 de oro</td>
+            </tr>
+            <tr>
+                <td>Items legendarios</td>
+                <td>20 de oro</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 30 de oro</td>
+        </tfoot>
+    </table>
+    <!-- ul=lista no ordenada
+    od= lista ordenada-->
+    <ul>
+        <li>Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+    </ul>
+    <ol>
+        <li value="10" >Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+            <ol>
+                <li style="list-style-type: lower-alpha;" >sub elemento1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento3</li>
+                <li style="list-style-type: lower-alpha;">sub elemento4</li>
+            </ol>
+    </ol>
+
+
+    <form action="/formulario" method="POST">
+        <label for="Nombre">Nombre</label>
+        <input value="chanchito" type="text"id="Nombre" name="Nombre" placeholder="Nombre"/>
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input value="chanchito" type="text"id="Apellido" name="Apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea  cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario"></textarea>
+        <br>
+        <button type="button" >Tipo boton</button>
+        <button type="reset" >Tipo reset</button>
+        <button type="submit" >Tipo submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercero heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <p>HOLA</p>
+    <p>Texto largo para<span style="color:blue"> poner</span> a prueba
+        la etiqueta de span!<br>
+        ahora poner un espacio<br><br>
+        ahora doble espacio
+    </p>
+    <!-- este texto no va a aparecer en el explorador
+    se utiliza para dar comentarios en el codigo-->
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <img src="img/Age.jpg" width="460" />
+
+</body>
+</html>
